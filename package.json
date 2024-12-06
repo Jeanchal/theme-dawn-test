@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch-scss": "sass --watch styles/styles.scss:assets/styles.css",
-    "dev": "npx shopify theme dev --store=gnm7u6-vu",
+    "login": "npx shopify login --store jean-and-chal.myshopify.com",
+    "dev": "npx shopify theme dev --store=jean-and-chal.myshopify.com",
     "start": "concurrently \"npm run watch-scss\" \"npm run dev\""
   },
   "keywords": [],
